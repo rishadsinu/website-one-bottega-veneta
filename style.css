@@ -1,0 +1,109 @@
+@font-face {
+    font-family: myfont;
+    src: url(font/HalifaxW03Regular.ttf);
+}
+
+
+
+   *{
+     padding: 0;
+    margin: 0;
+    font-family: myfont;
+}
+.navbar{
+
+
+    display: flex;
+    width: 100%;
+    height: 57px;
+    background-color: white;
+    position: fixed;
+}
+.navbar img{
+    width: 213px;
+    padding-left: 20px;
+
+
+}
+.li1{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    font-size: 16px;
+
+}
+ul li{
+    margin: 20px;
+}
+
+
+.navbar li{
+    list-style: none;
+}
+
+
+.simpels{
+    margin-left: 275px;
+    margin-top: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+.button1{
+    position: absolute;
+    margin-top: 47em;
+    margin-left: 52em;
+    padding: 15px
+}
+
+
+.button2{
+    position: absolute;
+    margin-top: 47em;
+    margin-left: 52em;
+    padding: 15px;
+}
+
+.button3{
+    position: absolute;
+    margin-top: 47em;
+    margin-left: 52em;
+    padding: 15px;
+}
+.simpels span{
+    margin-right: 10px;
+}
+.footer{
+    display: flex;
+    margin-top: 101px;
+    margin-bottom: 94px;
+}
+.footer ul li{
+    list-style: none;
+}
+.f1{
+    margin-left: 25px;
+}
+.f2{
+    margin-left: 240px;
+}
+.f3{
+    margin-left: 216px;
+}
+.f4{
+    margin-left: 201px;
+}
+li:hover{
+    text-decoration:underline;
+
+}
+button:hover{
+    color: white;
+    background: black;
+}
+.img1{
+    margin-top: 60px;
+    width: 100%;
+}
